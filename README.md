@@ -28,12 +28,12 @@ goeye "C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
 1. Open Create Task window
 	1. Select [Task Scheduler] in left pane
 	1. Select [Create Task...] in right pane
-1. General tab
-	![GeneralTab](./img/image01.png)
-1. Triggers tab
-	![TriggersTab](./img/image02.png)
-1. Actions tab
-	![ActionsTab](./img/image03.png)
+1. General tab  
+	<img src="./img/image01.png" alt="GeneralTab" width="50%" height="50%" />
+1. Triggers tab  
+	<img src="./img/image02.png" alt="TriggersTab" width="50%" height="50%" />
+1. Actions tab  
+	<img src="./img/image03.png" alt="ActionsTab" width="50%" height="50%" />
 
 ## Installation
 
