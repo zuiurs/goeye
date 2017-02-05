@@ -43,7 +43,7 @@ You can use `go get`.
 go get -u github.com/zuiurs/goeye
 ```
 
-# About ./script
+## About ./script
 
 - process_check_windows.bat
 	- works the same as goeye
