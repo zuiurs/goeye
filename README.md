@@ -43,6 +43,13 @@ You can use `go get`.
 go get -u github.com/zuiurs/goeye
 ```
 
+# About ./script
+
+- process_check_windows.bat
+	- works the same as goeye
+- process_check.vbs
+	- to hide cmd window at batch runtime
+
 ## License
 
 MIT
