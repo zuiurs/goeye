@@ -9,10 +9,13 @@ for cnt = 0 to WScript.Arguments.Count - 1
 	end if
 next
 
-dim cmd
-cmd = "cmd /c process_check_windows.bat " & args
+dim fso, dir, cmd
+set fso = CreateObject("Scripting.FileSystemObject")
+dir = fso.getParentFolderName(WScript.ScriptFullName)
+cmd = "cmd /c " & dir & "\process_check_windows.bat " & args
 
 ' WScript.Echo cmd
 
+dim ws
 set ws = CreateObject("Wscript.Shell")
 ws.run Replace(cmd, "`", """"), vbhide
